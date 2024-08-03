@@ -18,16 +18,6 @@ hugo mod init
 ./pull-images.sh
 ```
 
-## Installation
-
-```sh {"id":"01J4D1W6HWT4BS2YTEV9RAQ2YS"}
-# Install Hugo module
-hugo mod get
-
-# Pull example images from Unsplash
-./pull-images.sh
-```
-
 # References
 
 [Hugo Gallery Theme](https://github.com/nicokaiser/hugo-theme-gallery/tree/main)
