@@ -18,6 +18,22 @@ hugo mod init
 ./pull-images.sh
 ```
 
+## Adding New Dogs
+
+Create a directory with the dogs name
+And put the pictures of the dog in the directory
+
+```sh {"id":"01J4FTRVSXZDW2QM07HBZRYBG8"}
+mkdir -p content/maggie
+```
+
+* Create an index yaml file
+
+```sh {"id":"01J4FV4N3A4MN0B1JXJHNFKZ0T"}
+cp content/ollie/index.md content/maggie/index.md
+cp content/ollie/index.md content/jessica/index.md
+```
+
 # References
 
 [Hugo Gallery Theme](https://github.com/nicokaiser/hugo-theme-gallery/tree/main)
