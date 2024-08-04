@@ -18,14 +18,20 @@ hugo mod init
 ./pull-images.sh
 ```
 
-## Installation
+## Adding New Dogs
 
-```sh {"id":"01J4D1W6HWT4BS2YTEV9RAQ2YS"}
-# Install Hugo module
-hugo mod get
+Create a directory with the dogs name
+And put the pictures of the dog in the directory
 
-# Pull example images from Unsplash
-./pull-images.sh
+```sh {"id":"01J4FTRVSXZDW2QM07HBZRYBG8"}
+mkdir -p content/maggie
+```
+
+* Create an index yaml file
+
+```sh {"id":"01J4FV4N3A4MN0B1JXJHNFKZ0T"}
+cp content/ollie/index.md content/maggie/index.md
+cp content/ollie/index.md content/jessica/index.md
 ```
 
 # References
